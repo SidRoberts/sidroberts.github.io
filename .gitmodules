@@ -1,0 +1,4 @@
+[submodule "random-name-generator"]
+	path = random-name-generator
+	url = https://github.com/SidRoberts/random-name-generator.git
+	branch = master
