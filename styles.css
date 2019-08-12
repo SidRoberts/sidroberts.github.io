@@ -8,7 +8,6 @@
 
 html, body {
     height: 100%;
-    text-align: center;
 }
 
 html {
@@ -18,16 +17,21 @@ html {
 body {
     color: #343434;
     font-family: 'Miriam Libre', sans-serif;
-    margin: 2rem;
+    display: table;
+    height: 100%;
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
 }
 
 #main {
     background: rgba(255, 255, 255, 25%);
-    display: table;
+    display: table-cell;
     font-size: 1rem;
     height: 100%;
     width: 100%;
     padding: 1rem;
+    vertical-align: middle;
 }
 
 h1 {
@@ -46,5 +50,4 @@ p {
     font-size: 1.333rem;
     line-height: 1.5;
     margin-bottom: 2rem;
-    text-align: justify;
 }
