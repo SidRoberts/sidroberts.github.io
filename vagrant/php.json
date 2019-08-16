@@ -1,0 +1,17 @@
+{
+    "name":        "sidroberts/php",
+    "description": "Basic box with up-to-date packages and PHP development in mind",
+    "versions":    [
+        {
+            "version":   "20190816.0",
+            "providers": [
+                {
+                    "name":          "virtualbox",
+                    "url":           "https://www.dropbox.com/s/2lnqe00510mbg5y/20190816.0.vbox?dl=1",
+                    "checksum_type": "sha1",
+                    "checksum":      "09a1aafbf99e70555b664cf508467fdc4145084f"
+                }
+            ]
+        }
+    ]
+}
