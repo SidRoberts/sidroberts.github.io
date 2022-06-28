@@ -16,7 +16,7 @@ if [[ "$confirm" != "yes" ]]; then
     exit 1
 fi
 
-pacman -Sy git
+pacman -Sy git --noconfirm
 
 git clone https://github.com/SidRoberts/arch-install-script.git
 
