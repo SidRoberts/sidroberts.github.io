@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "sass": "*"
+  },
+  "scripts": {
+    "build-css": "node_modules/.bin/sass styles.sass > styles.css"
+  }
+}
