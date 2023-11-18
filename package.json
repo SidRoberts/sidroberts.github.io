@@ -3,6 +3,6 @@
     "sass": "*"
   },
   "scripts": {
-    "build-css": "node_modules/.bin/sass styles.sass > styles.css"
+    "build-css": "sass styles.sass > styles.css"
   }
 }
