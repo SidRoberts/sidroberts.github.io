@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "sass": "*"
-  },
-  "scripts": {
-    "build-css": "sass styles.sass > styles.css"
-  }
-}
